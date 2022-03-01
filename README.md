@@ -26,19 +26,19 @@
 
 #### i. 초음파 센서를 이용한 하차 보조
 
-![doorcok](..\AIXcompetition_microbit\images\doorcok.png)
+![doorcok](..\images\doorcok.png)
 
 
 
 추가적인 하드웨어 추가 없이, 주차보조시스템으로 이용되는 초음파 센서를 이용하여 구현하고자 하였습니다.
 
- ![](D:..\AIXcompetition_microbit\images\6.png)
+ ![](..\images\6.png)
 
 초음파 센서가 측정한 거리가 지정된 거리보다 가까워지면, 모터 제어로 문을 살짝 잡아주면서 급격한 문 열림을 방지하고 경고하는 기능입니다.
 
 ###### 구현 동영상
 
-<video src="..\AIXcompetition_microbit\images\doorcok.mp4"></video>
+<video src="..\images\doorcok.mp4"></video>
 
 (microbit 경연대회지만, gpio 핀 자리가 부족하여 주최측 양해를 구하고 라즈베리파이로 구현)
 
@@ -70,7 +70,7 @@
 
 ###### 구현 영상(Ex 스쿨존 사각지대에서의 주차 차량의 초음파 센서 이용)
 
-<video src="..\AIXcompetition_microbit\images\schoolzone.mp4"></video>
+<video src="..\images\schoolzone.mp4"></video>
 
 
 
@@ -82,7 +82,7 @@
 
 #### ii. 도로 상황 신호 공유
 
-<video src="..\AIXcompetition_microbit\images\blackicetrafickaccident.mp4"></video>
+<video src="..\images\blackicetrafickaccident.mp4"></video>
 
 
 
@@ -90,7 +90,7 @@
 
 현제 자동차의 신호 공유 수단으로 좌우 깜빡이, 양보 깜빡이, 브레이크등을 사용하고 있지만 이것들 만으로는 역부족입니다. 그래서 자동차끼리 라디오 통신 등을 이용한 유기적 연결을 통해 이를 극복하고자 하였습니다.
 
-![7](..\AIXcompetition_microbit\images\7.png)
+![7](..\images\7.png)
 
 
 
