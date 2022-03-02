@@ -1,0 +1,25 @@
+구동 순서
+
+1. 연결
+같은 알파벳을 가진것들 끼리 연결하면 됩니다.
+라즈베리파이 R
+마이크로비트 A B C
+확장 보드 A
+마퀸 B C
+허스키렌즈 B
+초음파센서 R A
+3색 LED A
+
+2. 실행
+rpi.py는 라즈베리파이에서 구동
+
+마이크로비트 코드는 
+https://microbit.org/ko/ 에서 코드블록 작성 후 마이크로비트에 코드 삽입 후 실행
+# 익스텐션 설치
+traffic center > sonar
+maqueen 1 > maqueen, DFRobot_HuskyLens
+maqueen 2 > maqueen
+
+traffic center.jpg > 마이크로비트 A 확장보드 A
+maqueen 1 > 마이크로비트 B with 마퀸 B
+maqueen 1 > 마이크로비트 C with 마퀸 C
